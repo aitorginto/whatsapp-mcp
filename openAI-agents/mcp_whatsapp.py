@@ -114,6 +114,7 @@ async def main():
             # Specify the working directory if the server script needs it
             "cwd": WHATSAPP_SERVER_WORKING_DIR,
         },
+        cache_tools_list=True
         # Optional: Increase timeout if the server takes longer to start
         # startup_timeout_seconds=30,
     ) as server:
